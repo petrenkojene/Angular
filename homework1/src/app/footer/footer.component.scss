@@ -1,0 +1,41 @@
+@mixin grid{
+justify-self: end;
+display: grid;
+align-items: center;
+}
+
+@mixin text {
+   justify-self: start;
+   line-height: 50px;
+}
+.footer_img{
+    width: 25px;
+     align-items: center;
+
+}
+.footer_tel1{
+    grid-area: 1/1/2/2;
+    @include grid
+   
+}
+.footer_tel2{
+    grid-area: 1/2/2/4;
+    @include text()
+}
+.footer_mail1 {
+  grid-area: 1/5/2/6;
+  @include grid
+}
+.footer_mail2{
+    grid-area: 1/6/2/8;
+    @include text()
+}
+.footer_gps1 {
+  grid-area: 1/9/2/10;
+  @include grid
+}
+
+.footer_gps2 {
+  grid-area: 1/10/2/12;
+  @include text()
+}

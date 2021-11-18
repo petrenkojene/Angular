@@ -1,4 +1,6 @@
 .container{
+    width: 900px;
+    margin: 0 auto;
 display: grid;
 grid-template-columns: repeat(8,1fr);
 grid-template-rows: 40px 1fr 60px;
@@ -15,4 +17,12 @@ app-content{
     grid-area: 2/1/3/9;
     display: grid;
     grid-template-rows: 1fr 1.2fr;
+}
+
+app-footer{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 10px;
+    height: 60px;
+    background-color: gray;
 }
