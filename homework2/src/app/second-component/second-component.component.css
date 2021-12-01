@@ -1,0 +1,25 @@
+.arrow {
+    width: 20px;
+    height: 20px;
+    border-top: 10px solid #18c0aa;
+    border-right: 10px solid #18c0aa;
+    margin-right: 60px;
+}    
+.arrow:hover{
+    border-top: 10px solid #d2df65;
+    border-right: 10px solid #d2df65;
+}
+.left{
+    transform: rotate(45deg);
+}
+.right{
+transform: rotate(225deg);
+}
+.strelka{
+position: absolute;
+left: 250px;
+top: 430px;
+display: flex;
+justify-content: space-around;
+
+}
