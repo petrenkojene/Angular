@@ -1,0 +1,14 @@
+<div class="main">
+    <div class="list">
+<ol>
+    <li><a [routerLink]="['/']" routerLinkActive="first active" [routerLinkActiveOptions]="{exact:true}">Задание 1</a></li>
+    <li><a [routerLink]="['second']" routerLinkActive="second active" >Задание 2</a></li>
+    <li><a [routerLink]="['third']" routerLinkActive="second active" >Задание 3</a></li>
+    <li><a [routerLink]="['fourth']" routerLinkActive="second active" >Задание 4</a></li>
+    <li></li>
+</ol>
+</div>
+<div class="outlet">
+<router-outlet class="router"></router-outlet>
+</div>
+</div>

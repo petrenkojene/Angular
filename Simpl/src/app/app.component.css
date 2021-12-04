@@ -1,0 +1,27 @@
+.outlet{
+    width: 600px;
+    border: 2px solid gray;
+}
+.main{
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+}
+a{
+    width: 100px;
+    height: 60px;
+    margin:10px ;
+    text-decoration: none;
+    border: 1px solid black;
+    
+    font-size: 24px;
+
+
+}
+.active{
+    background-color: rgb(241, 241, 183);
+    color: indianred;
+}
+ol{
+    list-style: none;
+}

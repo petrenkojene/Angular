@@ -1,0 +1,9 @@
+<ol>
+    <li *ngFor="let item of list; let last= last"  
+    [class.bg] = "last?true:false"
+     (click)=gerik(item)
+    
+     >
+        {{item}}
+    </li>
+</ol>
