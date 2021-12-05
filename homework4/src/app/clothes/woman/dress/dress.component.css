@@ -1,0 +1,9 @@
+.dress{
+    width: 200px;
+}
+
+.dressButton{
+    display: flex;
+    justify-content: space-evenly;
+    
+}

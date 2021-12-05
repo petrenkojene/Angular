@@ -1,0 +1,31 @@
+<h3>Components</h3>
+<div class="main">
+    <div class="link">
+        <ol>
+            <li><a [routerLink]="['/children']" routerLinkActive="active children"[routerLinkActiveOptions]="{exact:true}" > Детское</a>
+            <ol>
+                <li></li>
+                <li></li>
+            </ol>
+        </li>
+            <li><a [routerLink]="['/man']" routerLinkActive="active man" > Мужское</a></li>
+            <li><a [routerLink]="['/woman']" routerLinkActive="active man" > Женское</a></li>
+            <li></li>
+        </ol>
+<hr>
+<ol>
+    <li><a [routerLink]="['/man']" routerLinkActive="active man" > Мужское</a></li>
+    <li><a [routerLink]="['/man']" routerLinkActive="active man" > Мужское</a></li>
+    <li><a [routerLink]="['/man']" routerLinkActive="active man" > Мужское</a></li>
+</ol>
+<li><a [routerLink]="['/nutrilon']" routerLinkActive="active man" > Nutrition</a></li>
+<a [routerLink]="['/one']" routerLinkActive="router-link-active" >One</a>
+<a [routerLink]="['/two']" routerLinkActive="router-link-active" >Two</a>
+
+</div>
+<div class="outlet">
+
+    <router-outlet></router-outlet>
+
+</div>
+</div>

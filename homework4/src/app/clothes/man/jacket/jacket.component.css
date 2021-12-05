@@ -1,0 +1,9 @@
+.jacket{
+    width: 200px;
+}
+
+.jacketButton{
+    display: flex;
+    justify-content: space-evenly;
+    
+}

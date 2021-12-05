@@ -1,0 +1,9 @@
+.shoes{
+    width: 200px;
+}
+
+.shoesButton{
+    display: flex;
+    justify-content: space-evenly;
+    
+}

@@ -1,0 +1,32 @@
+.main{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+}
+.link, .outlet{
+    border: 1px solid gray;
+    justify-self: stretch;
+    padding: 0 10px 0 10px;
+}
+ol{
+    list-style: none;
+}
+a{
+    width: 200px;
+    height: 60px;
+    margin:10px ;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 24px;
+
+
+}
+.active{
+    background-color: rgb(121, 6, 21);
+    color: honeydew;
+}
+::ng-deep h2{
+   border:  3px solid gray;
+     padding: 10px;
+}
