@@ -4,9 +4,15 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+import { CardsContainerComponent } from './cards-container/cards-container.component';
+import { CardBlocComponent } from './card-bloc/card-bloc.component';
+
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CardBlocComponent,
+    CardsContainerComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,9 @@
+<button (click) ="chang1()">Хочу скидку</button>
+
+<h3>Товары</h3>
+<ng-container *ngIf ='x' >
+<div class="product"  *ngFor="let elem of products"  >
+  {{elem.id}}  {{elem.name}} -{{elem.description}} цена: {{elem.price}} uah
+</div>
+</ng-container >
+  <app-card-bloc [name]="products"  [prapor]="prapor"  (myOven)="hendler($event)"  ></app-card-bloc>

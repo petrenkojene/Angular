@@ -1,0 +1,8 @@
+
+<ol *ngIf="flag" >
+    <li *ngFor = "let item of name">
+        {{item.id}} {{item.name}} цена:  {{item.price}}uah
+        {{prapor}}
+    </li>
+</ol>
+<button (click)="change()" >Ознакомиться</button>
